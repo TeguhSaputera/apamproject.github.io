@@ -1,0 +1,139 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+html {
+  scroll-behavior: smooth;
+  top: 100px;
+}
+
+.navbar-project {
+  padding-top: 15px;
+
+  .navbar-brand {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+  .navbar-nav {
+    .nav-item {
+      text-align: center;
+      font-weight: 700;
+      .nav-link {
+        @include media-breakpoint-up(lg) {
+          margin-left: 10px;
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}
+
+.image-content {
+  top: 20px;
+  background-image: url(../image/image1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  h1 {
+    font-family: "Luckiest Guy", cursive;
+    color: rgb(252, 206, 56);
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-family: "Fira Sans", sans-serif;
+    color: rgb(252, 206, 56);
+    font-weight: bolder;
+    text-shadow: 2px 2px 4px #000000;
+  }
+}
+
+.about-content {
+  padding-top: 70px;
+  margin-bottom: 40px;
+
+  h2 {
+    font-family: "Luckiest Guy", cursive;
+    text-decoration: underline;
+    font-weight: normal;
+  }
+
+  .section-content {
+    p {
+      font-family: "Fira Sans", sans-serif;
+    }
+  }
+}
+
+.service-content {
+  background-color: rgb(255, 244, 196);
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  h2 {
+    font-family: "Luckiest Guy", cursive;
+    text-decoration: underline;
+    font-weight: normal;
+  }
+}
+
+.portfolio-content {
+  background-color: rgb(238, 197, 16);
+  padding-top: 50px;
+
+  h2 {
+    font-family: "Luckiest Guy", cursive;
+    text-decoration: underline;
+    font-weight: normal;
+    color: #fff;
+  }
+
+  .image-portfolio {
+    padding-bottom: 10px;
+    .portfolio-title {
+      h5 {
+        margin-top: 10px;
+        font-family: "Fira Sans", sans-serif;
+        text-align: center;
+        color: white;
+      }
+    }
+  }
+}
+
+.contact-content {
+  background-color: rgb(95, 78, 2);
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  h2 {
+    font-family: "Luckiest Guy", cursive;
+    text-decoration: underline;
+    font-weight: normal;
+    color: #fff;
+  }
+
+  ul {
+    li {
+      list-style: none;
+      margin-bottom: 25px;
+      h5 {
+        color: #fff;
+      }
+
+      p {
+        color: #fff;
+      }
+    }
+  }
+}
+
+.content-footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  h5 {
+    font-size: 15px;
+    font-family: "Fira Sans", sans-serif;
+  }
+}
